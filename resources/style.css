@@ -1,0 +1,228 @@
+
+input[type="text"], input[type="password"] {
+    color:#000000;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 2500px;
+    background-color: #f3f3f3;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Bubblegum Sans', Georgia, Times, 'Times New Roman';
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.main-section {
+    padding: 50px 0;
+}
+
+/* NavBar */
+.navbar {
+    transition: all 1s;
+}
+
+.navbar {
+    background: #ffffff;
+    top: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.navbar.fixed {
+    transition: all 1s;
+}
+
+.navbar.fixed {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    position: fixed;
+    top: 0;
+    z-index: 888;
+    width: 100%;
+    -webkit-box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+
+}
+
+.navbar .navbar-brand img {
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+    width: 275px;
+    height: 75px;
+}
+
+.site-logo {
+    padding: 15px 20px !important;
+    margin: 15px 10px !important;
+}
+
+.navbar.fixed .navbar-brand img {
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+    width: 183px;
+    height: 50px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+.navbar .nav-link.active {
+    color: #004085 !important;
+    font-weight: 600;
+}
+
+.menu-collapsed-button {
+    margin: 20px 15px 10px 15px !important;
+}
+
+/* Hero-image */
+.hero-image {
+    height: 600px;
+    background: url('../images/hero-image.jpg') no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 0 0 20px rgba(0, 0, 0, .7);
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+}
+.hero-text p {
+    font-size: 1.5rem;
+}
+
+/* About Section */
+#about {
+    background: #ffffff;
+}
+#about-image {
+    margin-top: 0;
+}
+#about-image img {
+    margin-bottom: 20px;
+}
+#about-image h3, #about-image h4 {
+    margin: 0;
+}
+#about-image h4 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 768px) {
+    #about-title {
+        display: none;
+    }
+}
+/* Services section */
+#diensten {
+    background: #f7f7f7;
+}
+
+/* Portfolio Section  */
+#portfolio {
+    color: #ffffff;
+    background: #504746;
+}
+
+/* Prijzen Section  */
+#prijzen {
+    background: #f7f7f7;
+}
+
+#prijzen .location {
+    background: #ffffff;
+}
+
+.prijzentabel {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.prijzentabel td:last-child {
+    text-align: right;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+/* Contact Section  */
+#contact {
+    color: #ffffff;
+    background: #504746;
+}
+
+/* footer */
+.site-footer {
+    background: #141414;
+    color: #adadad;
+    font-size: .8rem;
+}
+.site-footer a {
+    color: #adadad;
+    text-decoration: underline;
+}
+
+.site-footer h3.footer-section-title, .site-footer strong {
+    color: #ffffff;
+}
+.site-footer .row > div > ul, .site-footer ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.site-footer ul {
+    margin: 0;
+    padding: 0;
+}
+.footer-section-title {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+    font-size: 1.2rem;
+}
+.opening-time-item strong {
+    display: inline-block;
+    font-weight: 400;
+    margin-right: 10px;
+    min-width: 85px;
+}
+.information-item span {
+    display: inline-block;
+    font-weight: 400;
+    margin-right: 10px;
+    min-width: 60px;
+}
+.copyright {
+    background: #000000;
+    padding: 10px 0;
+}
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
